@@ -29,19 +29,24 @@ This project models a simple Articles system with **Authors**, **Magazines**, an
 ```bash
 git clone <your-repo-url>
 cd articles
-Activate the Pipenv virtual environment:
+
+
+
+2. Activate the Pipenv virtual environment:
 
 bash
 Copy
 Edit
 pipenv shell
-Install dependencies:
+
+3. Install dependencies:
 
 bash
 Copy
 Edit
 pipenv install
-Create and seed the database:
+
+4. Create and seed the database:
 
 bash
 Copy
@@ -56,13 +61,15 @@ Create the tables (authors, magazines, articles)
 Insert some initial sample data
 
 Verify Setup
-Check the database file:
+
+5. Check the database file:
 
 bash
 Copy
 Edit
 ls -l articles.db
-Use the SQLite CLI to inspect tables and data:
+
+6. Use the SQLite CLI to inspect tables and data:
 
 bash
 Copy
@@ -73,7 +80,8 @@ sqlite> .tables
 authors  magazines  articles
 
 sqlite> SELECT * FROM authors;
-Running Scripts
+
+7. Running Scripts
 You can run other Python scripts inside scripts/ to interact with the database or test functionality:
 
 bash
@@ -87,6 +95,7 @@ bash
 Copy
 Edit
 pytest tests/
+
 Project Structure
 graphql
 Copy
@@ -108,6 +117,7 @@ articles/
 ├── Pipfile             
 ├── Pipfile.lock        
 └── README.md           
+
 Notes
 Make sure to run the setup script from the project root so paths to schema.sql and other files resolve correctly.
 
