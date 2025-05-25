@@ -17,3 +17,4 @@ def seed():
 
 if __name__ == "__main__":
     seed()
+    print("Database seeded successfully.")
