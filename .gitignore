@@ -1,0 +1,6 @@
+# Pipenv
+Pipfile.lock
+# Virtual environment
+env/
+__pycache__/
+
