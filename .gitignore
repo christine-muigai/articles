@@ -1,6 +1,8 @@
-# Pipenv
-Pipfile.lock
-# Virtual environment
 env/
+venv/
 __pycache__/
-
+*.pyc
+*.db
+*.sqlite3
+Pipfile.lock
+.vscode/
