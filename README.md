@@ -94,7 +94,7 @@ Run automated tests (if available):
 bash
 Copy
 Edit
-pytest tests/
+PYTHONPATH=. pytest tests/
 
 Project Structure
 graphql
@@ -124,4 +124,8 @@ Make sure to run the setup script from the project root so paths to schema.sql a
 If you modify the database schema (schema.sql), re-run the setup script to recreate tables.
 
 The project currently uses raw SQL queries without an ORM.
+
+License
+MIT License
+
 
